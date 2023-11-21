@@ -214,7 +214,7 @@ name = "conda-base"
 # style = "semver"
 
 # [tool.poetry-dynamic-versioning.substitution]
-# files = ["src/sitecustomize_hello/__init__.py", "docs/changes.md"]
+# files = ["src/sitecustomize_apport_hook/__init__.py", "docs/changes.md"]
 
 
 [tool.poetry-release]
@@ -228,7 +228,7 @@ release-commit-message = "Release {package_name} {version}"
 tag-name = "{version}"
 release-replacements = [
     { file = "docs/changes.md", pattern = "Unreleased \\(YYYY-MM-DD\\)", replace = "{version} ({date})" },
-    { file = "src/sitecustomize_hello/__init__.py", pattern = '__version__ = "{version}"', replace = '__version__ = "{next_version}"' },
+    { file = "src/sitecustomize_apport_hook/__init__.py", pattern = '__version__ = "{version}"', replace = '__version__ = "{next_version}"' },
 ]
 
 

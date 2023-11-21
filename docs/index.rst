@@ -21,7 +21,7 @@ sitecustomize-hello
     :maxdepth: 2
     :caption: Modules
 
-    modules/sitecustomize_hello/index.rst
+    modules/sitecustomize_apport_hook/index.rst
 
 Indices and tables
 ==================

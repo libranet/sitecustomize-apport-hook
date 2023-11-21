@@ -69,12 +69,12 @@ Hello.
 
 ## Registered sitecustomize-entrypoint
 
-The ``sitecustomize_hello``-function is registered as a ``sitecustomize``-entrypoint in our pyproject.toml_:
+The ``sitecustomize_apport_hook``-function is registered as a ``sitecustomize``-entrypoint in our pyproject.toml_:
 
 ``` toml
     [tool.poetry.plugins]
     [tool.poetry.plugins."sitecustomize"]
-    sitecustomize_hello = "sitecustomize_hello:entrypoint"
+    sitecustomize_apport_hook = "sitecustomize_apport_hook:entrypoint"
 ```
 
 Sitecustomize and all its registered entrypoints will be executed at the start of *every* python-process.

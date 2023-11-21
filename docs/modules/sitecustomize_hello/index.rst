@@ -1,11 +1,11 @@
-:py:mod:`sitecustomize_hello`
+:py:mod:`sitecustomize_apport_hook`
 =============================
 
-.. py:module:: sitecustomize_hello
+.. py:module:: sitecustomize_apport_hook
 
 .. autoapi-nested-parse::
 
-   sitecustomize_hello.__init__.
+   sitecustomize_apport_hook.__init__.
 
 
 
@@ -18,7 +18,7 @@ Functions
 
 .. autoapisummary::
 
-   sitecustomize_hello.entrypoint
+   sitecustomize_apport_hook.entrypoint
 
 
 
@@ -27,9 +27,9 @@ Attributes
 
 .. autoapisummary::
 
-   sitecustomize_hello.__version__
-   sitecustomize_hello.__copyright__
-   sitecustomize_hello.__license__
+   sitecustomize_apport_hook.__version__
+   sitecustomize_apport_hook.__copyright__
+   sitecustomize_apport_hook.__license__
 
 
 .. py:data:: __version__

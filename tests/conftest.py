@@ -46,12 +46,12 @@ Usage:
   > pytest -v -m "not integration"
 
   # generate coverage in the terminal + in html-report
-  > pytest --cov="sitecustomize_hello"  --cov-report=term  --cov-report=html
+  > pytest --cov="sitecustomize_apport_hook"  --cov-report=term  --cov-report=html
 
 """
 import importlib
 
-import sitecustomize_hello
+import sitecustomize_apport_hook
 
 # reload the module to fix coverage report
-importlib.reload(sitecustomize_hello)
+importlib.reload(sitecustomize_apport_hook)
