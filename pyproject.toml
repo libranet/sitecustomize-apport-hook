@@ -36,9 +36,9 @@ skips = ["*/test_*.py", "*/*_test.py"]
 
 
 [tool.black]
-line-length = 120
-target_version = ["py310"]
 include = '\.py$'          # regex -> single-quotes
+line-length = 120
+target-version = ["py310"]
 
 
 [tool.coverage.html]
